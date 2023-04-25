@@ -22,4 +22,6 @@ public class DepartmentLocation implements Serializable {
     @JoinColumn(name = "Deptid", referencedColumnName = "Department_id")
     private Department department;
 
+
 }
+

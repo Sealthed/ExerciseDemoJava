@@ -37,8 +37,5 @@ public class Employee implements Serializable {
 
     @OneToMany(mappedBy = "employee", cascade = CascadeType.ALL)
     private Set<Assignment> assignments;
-
-    @OneToMany(mappedBy = "relative", cascade = CascadeType.ALL)
-    private Set<Relative> relatives;
-
 }
+

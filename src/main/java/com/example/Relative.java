@@ -27,7 +27,7 @@ public class Relative implements Serializable{
     private String relationship;
 
     @ManyToOne
-    @JoinColumn (name = "employeeid", referencedColumnName = "employeeid")
+    @JoinColumn (name = "employeeid", referencedColumnName = "employee_id")
     private Employee employee;
 
 }
