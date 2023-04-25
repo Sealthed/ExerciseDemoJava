@@ -29,5 +29,5 @@ public class Relative implements Serializable{
     @ManyToOne
     @JoinColumn (name = "employeeid", referencedColumnName = "employeeid")
     private Employee employee;
-    
+
 }
