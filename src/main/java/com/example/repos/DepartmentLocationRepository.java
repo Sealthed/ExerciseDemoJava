@@ -1,6 +1,6 @@
 package com.example.repos;
 
-import com.example.entities.DepartmentLocation;
+import com.example.model.DepartmentLocation;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

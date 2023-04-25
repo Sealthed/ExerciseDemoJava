@@ -1,6 +1,6 @@
 package com.example.repos;
 
-import com.example.entities.Relative;
+import com.example.model.Relative;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

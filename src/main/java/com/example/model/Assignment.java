@@ -1,4 +1,4 @@
-package com.example.entities;
+package com.example.model;
 
 import lombok.Data;
 
@@ -25,4 +25,5 @@ public class Assignment implements Serializable {
     @ManyToOne
     @JoinColumn(name = "projectid", referencedColumnName = "projectid")
     private Project project;
+
 }
