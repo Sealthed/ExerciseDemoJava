@@ -1,5 +1,6 @@
-package com.example;
+package com.example.entities;
 
+import com.example.entities.Employee;
 import lombok.Data;
 
 import javax.persistence.*;
